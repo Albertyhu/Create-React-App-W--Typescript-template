@@ -1,0 +1,1 @@
+This is a template for Create-React-App with Typescript integrated
