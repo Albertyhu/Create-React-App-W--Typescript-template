@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\components"
   ],
-  "SelectedNode": "\\tsconfig.json",
+  "SelectedNode": "\\src\\App.test.tsx",
   "PreviewInSolutionExplorer": false
 }

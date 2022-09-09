@@ -23,7 +23,8 @@
     "outDir": "./public",
     "removeComments": true,
     "noEmitOnError": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "noImplicitAny": false
   },
   "include": [
     "src"

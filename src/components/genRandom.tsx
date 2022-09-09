@@ -1,5 +1,6 @@
 
 export const genRandom = (size: number) => {
+
     return Math.floor(Math.random() * size) + 1; 
 }
 
@@ -8,7 +9,8 @@ const alpha: Array<string> = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", 
 export const genKey = (size: number) => {
     var key = "";
     for (var i = 0; i < size; i++) {
-        key += alpha[Math.floor(Math.random() * alpha.length) - 1];
+        const value: number = Math.floor(Math.random() * (alpha.length - 1));
+        key += alpha[value]
     }
     return key;
 }
